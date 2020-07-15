@@ -11,8 +11,6 @@ public class PowerOfThree {
 		System.out.println(result);
 		result = new PowerOfThree().isPowerOfThree(27);
 		System.out.println(result);
-		result = new PowerOfThree().isPowerOfThree(51);
-		System.out.println(result);
 	}
 
 	public boolean isPowerOfThree(int n) {
