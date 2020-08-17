@@ -8,6 +8,11 @@ public class LongestCommonPrefix {
 	}
 
 	public String longestCommonPrefix(String[] strs) {
+
+		if (strs.length == 0) {
+			return "";
+		}
+
 		StringBuilder longestPrefix = new StringBuilder("");
 		String minString = strs[0];
 		String maxString = strs[0];
